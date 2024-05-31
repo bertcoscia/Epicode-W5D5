@@ -119,10 +119,12 @@ h4 {
 .more-articles {
     width: 80%;
     margin-inline: auto;
+    justify-content: space-evenly;
 }
 
 .suggested-article {
     justify-content: space-between;
+    margin-block: 2em;
 }
 
 h3 {
