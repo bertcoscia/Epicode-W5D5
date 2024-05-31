@@ -1,5 +1,7 @@
 const start = document.querySelector(".hero button");
 
+// aggiungo un event listener sul bottone start reading, cliccandolo ottengo la coordinata della sua posizione
+// uso questa coordinata come valore trigger per cambiare i colori con lo scroll
 start.addEventListener("click", function (event) {
   console.log(event);
   const coordinata = event.pageY;
