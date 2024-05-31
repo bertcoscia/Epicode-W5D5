@@ -24,7 +24,7 @@ h1 {
 
 .main-container {
     margin-inline: auto;
-    margin-top: 75px;
+    margin-top: 40px;
 }
 
 .flex {
@@ -40,6 +40,7 @@ header {
     background-color: #ffc017;
     border-bottom: 1.5px solid #191919;
     margin-bottom: 5em;
+    padding-bottom: 5em;
 }
 
 li {
