@@ -1,0 +1,29 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    color: #191919;
+}
+
+.main-container {
+    width: 70%;
+    margin-inline: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    background-color: #ffc017;
+}
+
+li {
+    display: inline-block;
+    padding-inline: 0.5em;
+}
+
+nav {
+    justify-content: space-between;
+}
