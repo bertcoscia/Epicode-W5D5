@@ -4,6 +4,11 @@
 
 body {
     color: #191919;
+    font-family: "Roboto";
+}
+
+h1 {
+    font-family: "Spectral";
 }
 
 .main-container {
@@ -14,8 +19,15 @@ body {
     display: flex;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     background-color: #ffc017;
+    border-bottom: 1.5px solid #191919;
+    margin-bottom: 5em;
 }
 
 li {
@@ -55,4 +67,85 @@ h1 {
 .hero p {
     font-size: 1.5rem;
     margin-bottom: 2em;
+}
+
+.trend-zone {
+    width: 80%;
+    margin-inline: auto;
+    flex-wrap: wrap;
+    row-gap: 5em;
+    margin-bottom: 5em;
+}
+
+.trending {
+    width: 33.333%;
+    flex-shrink: 0;
+}
+
+.author {
+    align-items: center;
+}
+
+.author img {
+    border-radius: 50%;
+    margin-right: 0.5em;
+    width: 20px;
+}
+
+.author p {
+    font-weight: bold;
+}
+
+.author span {
+    font-weight: normal;
+}
+
+h4 {
+    font-weight: bold;
+    margin-block: 0.7em;
+}
+
+.date {
+    color: #757575;
+    font-weight: 200;
+}
+
+.number {
+    font-size: 2rem;
+    margin-right: 0.5em;
+    opacity: 20%;
+}
+
+.more-articles {
+    width: 80%;
+    margin-inline: auto;
+}
+
+.suggested-article {
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-block: 0.5em;
+}
+
+.suggested-article .date {
+    margin-top: 0.5em;
+}
+
+.suggested-article > img {
+    width: 250px;
+    object-fit: cover;
+}
+
+.text-preview {
+    font-weight: 200;
+}
+
+.date span {
+    background-color: #F2F3F3;
+    padding-inline: 0.6em;
+    border-radius: 25px;
 }
