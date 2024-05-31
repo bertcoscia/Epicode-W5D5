@@ -187,14 +187,26 @@ h3 {
     font-weight: 200;
 }
 
-.date span {
+.date {
+    align-items: center;
+    gap: 5px;
+}
+
+
+.article-text .date span:first-of-type {
     background-color: #F2F3F3;
     padding-inline: 0.6em;
+    padding-block: 0.2em;
     border-radius: 25px;
+}
+
+.article-text .date span:last-of-type {
+    margin-right: auto;
 }
 
 .article-text {
     margin-right: 2em;
+    width: 80%;
 }
 
 aside {
