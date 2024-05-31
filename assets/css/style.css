@@ -119,6 +119,10 @@ hr {
     flex-shrink: 0;
 }
 
+.trending-article {
+    padding-right: 1em;
+}
+
 .author {
     align-items: center;
 }
@@ -270,8 +274,8 @@ nav button {
 }
 
 .sticky-aside {
-    /* position: sticky;
-    top: 0; */
+    position: sticky;
+    top: 60px;
     padding-top: 2em;
 }
 
