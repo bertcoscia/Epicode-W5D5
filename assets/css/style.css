@@ -60,6 +60,7 @@ nav {
     padding-block: 0.5em;
     border-bottom: 1px solid #191919;
     transition: background-color 500ms;
+    z-index: 99;
 }
 
 .navbar-container {
